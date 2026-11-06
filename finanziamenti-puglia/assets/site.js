@@ -16,7 +16,7 @@
   if ("IntersectionObserver" in window) {
     var tio = new IntersectionObserver(function (es) {
       es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("on"); tio.unobserve(e.target); } });
-    }, { threshold: 0.6 });
+    }, { threshold: 0.4 });
     traces.forEach(function (t) { tio.observe(t); });
   } else { traces.forEach(function (t) { t.classList.add("on"); }); }
 
