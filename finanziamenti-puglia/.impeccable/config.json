@@ -1,0 +1,71 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "codex-grid-background",
+        "value": "*",
+        "files": [
+          "assets/site.css"
+        ],
+        "createdAt": "2026-11-06T23:24:48.940Z",
+        "reason": "direction contract: millimetre drawing-paper grid is the chosen 'tavola di progetto' world, picked by the user"
+      },
+      {
+        "rule": "codex-grid-background",
+        "value": "*",
+        "files": [
+          "chi-sono.html"
+        ],
+        "createdAt": "2026-11-06T23:24:59.506Z",
+        "reason": "direction contract: millimetre drawing-paper grid is the 'tavola di progetto' world the user picked"
+      },
+      {
+        "rule": "codex-grid-background",
+        "value": "*",
+        "files": [
+          "consulenza-direzionale.html"
+        ],
+        "createdAt": "2026-11-06T23:24:59.519Z",
+        "reason": "direction contract: millimetre drawing-paper grid is the 'tavola di progetto' world the user picked"
+      },
+      {
+        "rule": "codex-grid-background",
+        "value": "*",
+        "files": [
+          "contatti.html"
+        ],
+        "createdAt": "2026-11-06T23:24:59.530Z",
+        "reason": "direction contract: millimetre drawing-paper grid is the 'tavola di progetto' world the user picked"
+      },
+      {
+        "rule": "codex-grid-background",
+        "value": "*",
+        "files": [
+          "finanza-agevolata.html"
+        ],
+        "createdAt": "2026-11-06T23:24:59.541Z",
+        "reason": "direction contract: millimetre drawing-paper grid is the 'tavola di progetto' world the user picked"
+      },
+      {
+        "rule": "codex-grid-background",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-06T23:24:59.552Z",
+        "reason": "direction contract: millimetre drawing-paper grid is the 'tavola di progetto' world the user picked"
+      },
+      {
+        "rule": "codex-grid-background",
+        "value": "*",
+        "files": [
+          "life-coaching.html"
+        ],
+        "createdAt": "2026-11-06T23:24:59.563Z",
+        "reason": "direction contract: millimetre drawing-paper grid is the 'tavola di progetto' world the user picked"
+      }
+    ]
+  }
+}
