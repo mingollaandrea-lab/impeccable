@@ -4,7 +4,21 @@
 
   // Link prenotazione call di coaching. Sostituire con il link reale (Calendly, Google Calendar...).
   var BOOKING_URL = "https://calendly.com/INSERIRE-LINK";
-  document.querySelectorAll("[data-booking]").forEach(function (a) { a.href = BOOKING_URL; });
+  // Finché il link non c'è, i pulsanti "Prenota" portano al modulo coaching.
+  if (BOOKING_URL.indexOf("INSERIRE") === -1) {
+    document.querySelectorAll("[data-booking]").forEach(function (a) { a.href = BOOKING_URL; });
+  } else {
+    document.querySelectorAll("[data-booking]").forEach(function (a) { a.href = "contatti.html?servizio=coaching#richiesta"; });
+  }
+
+  // Quote: la linea di quota si traccia quando entra in vista
+  var traces = document.querySelectorAll(".trace");
+  if ("IntersectionObserver" in window) {
+    var tio = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("on"); tio.unobserve(e.target); } });
+    }, { threshold: 0.6 });
+    traces.forEach(function (t) { tio.observe(t); });
+  } else { traces.forEach(function (t) { t.classList.add("on"); }); }
 
   // Menu mobile
   var btn = document.querySelector(".menu-btn");

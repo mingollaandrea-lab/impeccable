@@ -57,7 +57,8 @@ Un ingegnere che da oltre 15 anni porta fondi pubblici alle imprese pugliesi, co
 
 - Numeri confermati dal cliente: oltre 15 anni di attività, oltre 1.500 clienti, 115 milioni € di pratiche di finanza agevolata gestite, 5 sedi.
 - Foto professionali di Andrea: esistono, saranno fornite. Fino ad allora il prototipo usa segnaposto dichiarati.
-- **Assenti, da non inventare:** testimonianze, recensioni, casi studio con nomi, certificazioni da coach, prezzi, percentuali di successo.
+- La prima consulenza gratuita è un'offerta già pubblicata sul sito attuale ("Contattaci per ottenere una consulenza gratuita"); il nuovo testo la estende a finanza agevolata e consulenza direzionale. Da riconfermare con il cliente prima della pubblicazione.
+- **Assenti, da non inventare:** tempi di risposta garantiti, testimonianze, recensioni, casi studio con nomi, certificazioni da coach, prezzi, percentuali di successo.
 
 ## Product Principles
 

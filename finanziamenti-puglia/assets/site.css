@@ -463,3 +463,40 @@ h2 + .lede, h1 + .lede { margin-top: 1.25rem; }
 .check-field.invalid .err { display: block; }
 .check-field.invalid .check input { outline: 2px solid var(--red); outline-offset: 1px; }
 .wa-float:hover { color: #fff; background: var(--red); }
+
+/* ---------- Fix round: sheet grid, title block, page index, traced dimension ---------- */
+body { background-image: none; background-color: var(--paper-2); }
+.sheet {
+  background-color: var(--paper);
+  background-image:
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+.cartiglio.tb dd { font-size: clamp(1rem, .9rem + .35vw, 1.2rem); }
+.cartiglio.tb dd.sm { font-size: 0.98rem; font-weight: 600; font-stretch: 100%; letter-spacing: 0; }
+.cartiglio.tb dd a { text-decoration: none; }
+.cartiglio.tb dd a:hover { color: var(--red); text-decoration: underline; }
+.cartiglio.tb .rv dt, .cartiglio.tb .rv dd { color: var(--red); }
+.cartiglio.tb .b { border-top: 1px solid var(--line); }
+.cartiglio.tb .wide.b + .wide.b { border-right: 0; }
+.cartiglio.tb > div:nth-child(3) { border-right: 0; }
+@media (max-width: 560px) {
+  .cartiglio.tb { grid-template-columns: 1fr 1fr; }
+  .cartiglio.tb .wide { grid-column: 1 / -1; border-right: 0; }
+  .cartiglio.tb > div:nth-child(2) { border-right: 1px solid var(--line); border-top: 1px solid var(--line); }
+  .cartiglio.tb > div:nth-child(3) { border-top: 1px solid var(--line); }
+}
+.toc { padding: 4px var(--gutter) 24px; border-top: 1px solid var(--line); }
+.toc-h { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.07em; color: var(--ink-3); font-weight: 600; margin: 14px 0 8px; }
+.toc ol { list-style: none; margin: 0; padding: 0; }
+.toc li { border-bottom: 1px solid var(--hair); }
+.toc a { display: flex; justify-content: space-between; padding: 9px 0; text-decoration: none; font-weight: 550; }
+.toc a::after { content: ""; width: 7px; height: 7px; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: rotate(45deg); margin: 6px 4px 0 0; }
+.toc a:hover { color: var(--red); }
+@media (max-width: 1000px) { .toc { display: none; } }
+.js .trace line { stroke-dasharray: 260; stroke-dashoffset: 260; transition: stroke-dashoffset 1.1s var(--ease); }
+.js .trace.on line { stroke-dashoffset: 0; }
+@media (prefers-reduced-motion: reduce) { .js .trace line { stroke-dashoffset: 0; } }
+.cartiglio.tb .rv dd { white-space: nowrap; font-size: clamp(.95rem, .85rem + .3vw, 1.1rem); }
+.cartiglio.tb dd.sm { line-height: 1.4; }
