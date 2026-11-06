@@ -1,0 +1,445 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-06T23:35:22+00:00",
+  "title": "Design System: Andrea Mingolla / Finanziamenti Puglia",
+  "extensions": {
+    "colorMeta": {
+      "red": {
+        "role": "primary",
+        "displayName": "Revision Red",
+        "canonical": "oklch(47.9% 0.194 28)",
+        "tonalRamp": [
+          "#210000",
+          "#510000",
+          "#870000",
+          "#b61014",
+          "#df433a",
+          "#ff7366",
+          "#ffaa9d",
+          "#ffded5"
+        ]
+      },
+      "red-deep": {
+        "role": "primary",
+        "displayName": "Revision Red Deep",
+        "canonical": "oklch(40.4% 0.163 27)",
+        "tonalRamp": [
+          "#1e0101",
+          "#4b0405",
+          "#7e0c0e",
+          "#aa2d28",
+          "#d25349",
+          "#f37e72",
+          "#ffb0a5",
+          "#ffe1da"
+        ]
+      },
+      "red-wash": {
+        "role": "primary",
+        "displayName": "Red Wash",
+        "canonical": "rgba(177, 4, 14, 0.07)",
+        "tonalRamp": [
+          "#210000",
+          "#510000",
+          "#870000",
+          "#b61014",
+          "#df433a",
+          "#ff7366",
+          "#ffaa9d",
+          "#ffded5"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Drawing Ink",
+        "canonical": "oklch(19.1% 0.002 107)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252524",
+          "#424241",
+          "#616160",
+          "#828281",
+          "#a5a5a4",
+          "#c9c9c8",
+          "#eeeeee"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "canonical": "oklch(39.7% 0.005 107)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#252523",
+          "#42423f",
+          "#61615e",
+          "#82827f",
+          "#a5a5a2",
+          "#c9c9c7",
+          "#eeeeed"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Pencil Grey",
+        "canonical": "oklch(52.7% 0.006 107)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#252523",
+          "#42423f",
+          "#61615d",
+          "#83837e",
+          "#a5a5a1",
+          "#c9c9c6",
+          "#eeeeed"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Drawing Paper",
+        "canonical": "oklch(98.5% 0.003 106)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252524",
+          "#424241",
+          "#616160",
+          "#828281",
+          "#a5a5a3",
+          "#c9c9c8",
+          "#eeeeee"
+        ]
+      },
+      "paper-2": {
+        "role": "neutral",
+        "displayName": "Desk",
+        "canonical": "oklch(95.7% 0.004 106)",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#252524",
+          "#424240",
+          "#61615f",
+          "#828280",
+          "#a5a5a3",
+          "#c9c9c7",
+          "#eeeeed"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Field White",
+        "canonical": "oklch(100.0% 0.000 90)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "hair": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(20, 20, 19, 0.16)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252524",
+          "#424241",
+          "#616160",
+          "#828281",
+          "#a5a5a4",
+          "#c9c9c8",
+          "#eeeeee"
+        ]
+      },
+      "grid": {
+        "role": "neutral",
+        "displayName": "Millimetre Grid",
+        "canonical": "rgba(20, 20, 19, 0.045)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252524",
+          "#424241",
+          "#616160",
+          "#828281",
+          "#a5a5a4",
+          "#c9c9c8",
+          "#eeeeee"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "The one h1 per page."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Section h2s."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "h3, FAQ questions, service sheet titles."
+      },
+      "lede": {
+        "displayName": "Lede",
+        "purpose": "The paragraph after a heading, graphite, max 58ch."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Running text, max 68ch, tabular figures."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Notes, captions, legal line."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase field names inside title-block, rail, footer and page-index cells."
+      },
+      "value": {
+        "displayName": "Value",
+        "purpose": "Filled-in values of cartiglio and rail cells."
+      }
+    },
+    "shadows": [
+      {
+        "name": "floating-action",
+        "value": "0 6px 18px rgba(20,20,19,.25)",
+        "purpose": "Only the fixed WhatsApp button under 760px. Nothing on the sheet casts a shadow."
+      }
+    ],
+    "borders": [
+      {
+        "name": "frame",
+        "value": "2px solid var(--ink) + outline 1px solid var(--ink) offset 5px",
+        "purpose": "The sheet frame."
+      },
+      {
+        "name": "structure",
+        "value": "2px solid var(--ink)",
+        "purpose": "Band ends, header, forms, cartiglio top."
+      },
+      {
+        "name": "cell",
+        "value": "1px solid var(--ink)",
+        "purpose": "Cell divisions, fields, tags."
+      },
+      {
+        "name": "hairline",
+        "value": "1px solid rgba(20,20,19,.16)",
+        "purpose": "Subdivisions inside a cell."
+      }
+    ],
+    "background": [
+      {
+        "name": "millimetre-grid",
+        "value": "linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px); background-size: 24px 24px",
+        "purpose": "On .sheet only; the page outside is paper-2."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(0.16, 1, 0.3, 1)",
+        "purpose": "Every transition and draw."
+      },
+      {
+        "name": "state",
+        "value": "0.2s",
+        "purpose": "Button colour changes."
+      },
+      {
+        "name": "nudge",
+        "value": "0.3s, translateX(3px to 4px)",
+        "purpose": "Arrow nudge on hover."
+      },
+      {
+        "name": "ring-trace",
+        "value": "0.9s stroke-dashoffset",
+        "purpose": "Red ring around a hovered service sheet."
+      },
+      {
+        "name": "quota-trace",
+        "value": "1.1s stroke-dashoffset on entering view",
+        "purpose": "Dimension lines."
+      },
+      {
+        "name": "mark-draw",
+        "value": "1.2s, 0.35s delay",
+        "purpose": "Red ring around a heading keyword on load."
+      },
+      {
+        "name": "reveal",
+        "value": "0.8s opacity + translateY(14px)",
+        "purpose": "Below-fold bands only; disabled under reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sheet-inset",
+        "value": "1440px"
+      },
+      {
+        "name": "nav-collapse",
+        "value": "1080px"
+      },
+      {
+        "name": "head-stack",
+        "value": "1000px"
+      },
+      {
+        "name": "cols-stack",
+        "value": "900px"
+      },
+      {
+        "name": "rail-stack",
+        "value": "760px"
+      },
+      {
+        "name": "form-stack",
+        "value": "640px"
+      },
+      {
+        "name": "cartiglio-2col",
+        "value": "560px"
+      },
+      {
+        "name": "single",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Red pen action, one per view, for the page's own conversion.",
+      "html": "<a class=\"ds-btn ds-btn-red\" href=\"#\"><span>Richiedi una consulenza gratuita</span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a>",
+      "css": ":root{--paper:#fafaf8;--paper-2:#f1f1ee;--ink:#141413;--ink-2:#474744;--ink-3:#6b6b67;--line:#141413;--hair:rgba(20,20,19,.16);--grid:rgba(20,20,19,.045);--red:#b1040e;--red-deep:#8c030b;--red-wash:rgba(177,4,14,.07);--font:'Archivo','Helvetica Neue',Arial,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 24px;font-family:var(--font,Arial,sans-serif);font-weight:650;font-size:1rem;text-decoration:none;cursor:pointer;border:2px solid var(--ink,#141413);border-radius:0;transition:background-color .2s var(--ease),color .2s var(--ease),border-color .2s var(--ease);} .ds-btn svg{width:18px;height:18px;transition:transform .3s var(--ease);} .ds-btn:hover svg{transform:translateX(3px);} .ds-btn:focus-visible{outline:2px solid var(--red,#b1040e);outline-offset:3px;} .ds-btn-red{background:var(--red,#b1040e);border-color:var(--red,#b1040e);color:#fff;} .ds-btn-red:hover{background:var(--red-deep,#8c030b);border-color:var(--red-deep,#8c030b);}"
+    },
+    {
+      "name": "Ink Button",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "Committed secondary action; turns red on hover.",
+      "html": "<a class=\"ds-btn ds-btn-ink\" href=\"#\"><span>Prenota la call gratuita</span><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></a>",
+      "css": ":root{--paper:#fafaf8;--paper-2:#f1f1ee;--ink:#141413;--ink-2:#474744;--ink-3:#6b6b67;--line:#141413;--hair:rgba(20,20,19,.16);--grid:rgba(20,20,19,.045);--red:#b1040e;--red-deep:#8c030b;--red-wash:rgba(177,4,14,.07);--font:'Archivo','Helvetica Neue',Arial,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 24px;font-family:var(--font,Arial,sans-serif);font-weight:650;font-size:1rem;text-decoration:none;cursor:pointer;border:2px solid var(--ink,#141413);border-radius:0;transition:background-color .2s var(--ease),color .2s var(--ease),border-color .2s var(--ease);} .ds-btn svg{width:18px;height:18px;transition:transform .3s var(--ease);} .ds-btn:hover svg{transform:translateX(3px);} .ds-btn:focus-visible{outline:2px solid var(--red,#b1040e);outline-offset:3px;} .ds-btn-ink{background:var(--ink,#141413);color:#fff;} .ds-btn-ink:hover{background:var(--red,#b1040e);border-color:var(--red,#b1040e);}"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "2px ink outline; fills ink on hover.",
+      "html": "<a class=\"ds-btn ds-btn-line\" href=\"#\">Come lavoriamo</a>",
+      "css": ":root{--paper:#fafaf8;--paper-2:#f1f1ee;--ink:#141413;--ink-2:#474744;--ink-3:#6b6b67;--line:#141413;--hair:rgba(20,20,19,.16);--grid:rgba(20,20,19,.045);--red:#b1040e;--red-deep:#8c030b;--red-wash:rgba(177,4,14,.07);--font:'Archivo','Helvetica Neue',Arial,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 24px;font-family:var(--font,Arial,sans-serif);font-weight:650;font-size:1rem;text-decoration:none;cursor:pointer;border:2px solid var(--ink,#141413);border-radius:0;transition:background-color .2s var(--ease),color .2s var(--ease),border-color .2s var(--ease);} .ds-btn svg{width:18px;height:18px;transition:transform .3s var(--ease);} .ds-btn:hover svg{transform:translateX(3px);} .ds-btn:focus-visible{outline:2px solid var(--red,#b1040e);outline-offset:3px;} .ds-btn-line{background:transparent;color:var(--ink,#141413);} .ds-btn-line:hover{background:var(--ink,#141413);color:#fff;}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "White box on the sheet, 1px ink border, red caret and focus.",
+      "html": "<div class=\"ds-field\"><label for=\"ds-n\">Nome e cognome</label><input id=\"ds-n\" placeholder=\"Mario Rossi\"></div>",
+      "css": ":root{--paper:#fafaf8;--paper-2:#f1f1ee;--ink:#141413;--ink-2:#474744;--ink-3:#6b6b67;--line:#141413;--hair:rgba(20,20,19,.16);--grid:rgba(20,20,19,.045);--red:#b1040e;--red-deep:#8c030b;--red-wash:rgba(177,4,14,.07);--font:'Archivo','Helvetica Neue',Arial,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-field{font-family:var(--font,Arial,sans-serif);color:var(--ink,#141413);max-width:360px;} .ds-field label{display:block;font-size:.86rem;font-weight:650;margin-bottom:6px;} .ds-field input{width:100%;box-sizing:border-box;font:inherit;font-size:1rem;color:var(--ink,#141413);background:#fff;border:1px solid var(--ink,#141413);border-radius:0;padding:12px 14px;min-height:48px;caret-color:var(--red,#b1040e);} .ds-field input::placeholder{color:#75756f;} .ds-field input:focus{outline:2px solid var(--red,#b1040e);outline-offset:-1px;}"
+    },
+    {
+      "name": "Header Nav",
+      "kind": "nav",
+      "refersTo": "nav",
+      "description": "Ruled nav cells; current page red with a 2px red bar.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#\" aria-current=\"page\">Finanza agevolata</a><a href=\"#\">Consulenza direzionale</a><a href=\"#\">Life coaching</a><a class=\"ds-wa\" href=\"#\">WhatsApp</a></nav>",
+      "css": ":root{--paper:#fafaf8;--paper-2:#f1f1ee;--ink:#141413;--ink-2:#474744;--ink-3:#6b6b67;--line:#141413;--hair:rgba(20,20,19,.16);--grid:rgba(20,20,19,.045);--red:#b1040e;--red-deep:#8c030b;--red-wash:rgba(177,4,14,.07);--font:'Archivo','Helvetica Neue',Arial,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-nav{display:flex;align-items:stretch;min-height:72px;border:2px solid var(--ink,#141413);background:var(--paper,#fafaf8);font-family:var(--font,Arial,sans-serif);} .ds-nav a{display:flex;align-items:center;padding:0 18px;border-left:1px solid var(--hair);text-decoration:none;color:var(--ink,#141413);font-size:.92rem;font-weight:500;position:relative;} .ds-nav a:first-child{border-left:0;} .ds-nav a:hover{color:var(--red,#b1040e);} .ds-nav a[aria-current=page]{color:var(--red,#b1040e);} .ds-nav a[aria-current=page]::after{content:'';position:absolute;left:14px;right:14px;bottom:14px;height:2px;background:var(--red,#b1040e);} .ds-nav a:focus-visible{outline:2px solid var(--red,#b1040e);outline-offset:-4px;} .ds-nav .ds-wa{margin-left:auto;border-left:2px solid var(--ink,#141413);background:var(--ink,#141413);color:#fff;font-weight:600;} .ds-nav .ds-wa:hover{background:var(--red,#b1040e);color:#fff;}"
+    },
+    {
+      "name": "Service Sheet Row",
+      "kind": "custom",
+      "refersTo": "index-row-hover",
+      "description": "Numbered service sheet (Tav. A); hover traces a red ring over a red wash.",
+      "html": "<a class=\"ds-row\" href=\"#\"><span class=\"ds-code\">Tav. A</span><span class=\"ds-body\"><b>Finanza agevolata</b><span>Contributi a fondo perduto e prestiti a tasso zero per chi investe in Puglia.</span><span class=\"ds-go\">Trova il bando <svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M4 12h15M13 6l6 6-6 6\"/></svg></span></span><svg class=\"ds-ring\" aria-hidden=\"true\"><rect x=\"1\" y=\"1\" width=\"99%\" height=\"98%\"/></svg></a>",
+      "css": ":root{--paper:#fafaf8;--paper-2:#f1f1ee;--ink:#141413;--ink-2:#474744;--ink-3:#6b6b67;--line:#141413;--hair:rgba(20,20,19,.16);--grid:rgba(20,20,19,.045);--red:#b1040e;--red-deep:#8c030b;--red-wash:rgba(177,4,14,.07);--font:'Archivo','Helvetica Neue',Arial,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-row{display:grid;grid-template-columns:56px minmax(0,1fr);border:1px solid var(--ink,#141413);text-decoration:none;color:var(--ink,#141413);position:relative;font-family:var(--font,Arial,sans-serif);background:var(--paper,#fafaf8);max-width:520px;transition:background-color .25s var(--ease);} .ds-code{display:flex;justify-content:center;padding-top:24px;border-right:1px solid var(--hair);font-size:.85rem;font-weight:600;color:var(--ink-3,#6b6b67);} .ds-body{padding:22px 24px 22px 22px;display:block;} .ds-body b{display:block;font-size:1.4rem;font-weight:700;font-stretch:112%;letter-spacing:-.02em;} .ds-body > span:not(.ds-go){display:block;margin:8px 0 14px;color:var(--ink-2,#474744);font-size:.98rem;} .ds-go{display:inline-flex;align-items:center;gap:8px;font-weight:650;color:var(--red,#b1040e);} .ds-go svg{width:16px;height:16px;transition:transform .3s var(--ease);} .ds-ring{position:absolute;inset:8px 10px;width:calc(100% - 20px);height:calc(100% - 16px);overflow:visible;pointer-events:none;} .ds-ring rect{fill:none;stroke:var(--red,#b1040e);stroke-width:2;stroke-dasharray:3200;stroke-dashoffset:3200;transition:stroke-dashoffset .9s var(--ease);vector-effect:non-scaling-stroke;} .ds-row:hover,.ds-row:focus-visible{background:var(--red-wash);outline:none;} .ds-row:hover .ds-ring rect,.ds-row:focus-visible .ds-ring rect{stroke-dashoffset:0;} .ds-row:hover .ds-go svg{transform:translateX(4px);}"
+    },
+    {
+      "name": "Cartiglio",
+      "kind": "card",
+      "refersTo": "cartiglio-cell",
+      "description": "Title block: ruled label/value cells; only the revision cell is red.",
+      "html": "<dl class=\"ds-tb\"><div class=\"ds-w\"><dt>Progettista</dt><dd>Ing. Andrea Mingolla</dd></div><div><dt>Tavola</dt><dd>Indice</dd></div><div class=\"ds-rv\"><dt>Rev.</dt><dd>B · nov 2026</dd></div><div class=\"ds-f\"><dt>Sedi</dt><dd class=\"ds-sm\">San Severo · Ruvo di Puglia · Bari · Taranto · Maglie</dd></div></dl>",
+      "css": ":root{--paper:#fafaf8;--paper-2:#f1f1ee;--ink:#141413;--ink-2:#474744;--ink-3:#6b6b67;--line:#141413;--hair:rgba(20,20,19,.16);--grid:rgba(20,20,19,.045);--red:#b1040e;--red-deep:#8c030b;--red-wash:rgba(177,4,14,.07);--font:'Archivo','Helvetica Neue',Arial,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-tb{margin:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--ink,#141413);border-top-width:2px;background:var(--paper,#fafaf8);font-family:var(--font,Arial,sans-serif);color:var(--ink,#141413);max-width:640px;} .ds-tb > div{padding:12px 16px 14px;border-right:1px solid var(--ink,#141413);} .ds-tb > div:nth-child(3){border-right:0;} .ds-w{grid-column:span 2;} .ds-f{grid-column:1/-1;border-right:0;border-top:1px solid var(--ink,#141413);} .ds-tb dt{font-size:.72rem;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-3,#6b6b67);font-weight:600;} .ds-tb dd{margin:4px 0 0;font-size:1.15rem;font-weight:700;font-stretch:108%;letter-spacing:-.02em;line-height:1.1;} .ds-tb dd.ds-sm{font-size:.98rem;font-weight:600;font-stretch:100%;letter-spacing:0;line-height:1.4;} .ds-rv dt,.ds-rv dd{color:var(--red,#b1040e);} .ds-rv dd{white-space:nowrap;}"
+    },
+    {
+      "name": "Revision Mark Heading",
+      "kind": "custom",
+      "refersTo": "display",
+      "description": "Display heading with one keyword circled by the red pen, drawn in on load.",
+      "html": "<h1 class=\"ds-h\">Fondi per la tua <span class=\"ds-mark\">impresa<svg viewBox=\"0 0 120 50\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><path d=\"M6 30 C 4 12, 40 3, 70 5 C 102 7, 118 16, 114 31 C 110 45, 70 49, 42 46 C 18 43, 3 36, 9 22 C 13 13, 30 8, 44 7\"/></svg></span>, numeri per il tuo cantiere.</h1>",
+      "css": ":root{--paper:#fafaf8;--paper-2:#f1f1ee;--ink:#141413;--ink-2:#474744;--ink-3:#6b6b67;--line:#141413;--hair:rgba(20,20,19,.16);--grid:rgba(20,20,19,.045);--red:#b1040e;--red-deep:#8c030b;--red-wash:rgba(177,4,14,.07);--font:'Archivo','Helvetica Neue',Arial,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-h{margin:0;font-family:var(--font,Arial,sans-serif);font-size:3.2rem;font-weight:700;font-stretch:112%;line-height:1.04;letter-spacing:-.035em;color:var(--ink,#141413);max-width:17ch;} .ds-mark{position:relative;display:inline-block;white-space:nowrap;} .ds-mark svg{position:absolute;left:-7%;top:-6%;width:114%;height:116%;overflow:visible;pointer-events:none;} .ds-mark path{fill:none;stroke:var(--red,#b1040e);stroke-width:3;stroke-linecap:round;vector-effect:non-scaling-stroke;stroke-dasharray:1400;stroke-dashoffset:1400;animation:ds-draw 1.2s .35s var(--ease) forwards;} .ds-h:hover .ds-mark path{animation:none;stroke-dashoffset:0;} @keyframes ds-draw{to{stroke-dashoffset:0;}} @media (prefers-reduced-motion:reduce){.ds-mark path{animation:none;stroke-dashoffset:0;}}"
+    },
+    {
+      "name": "Dimension Line",
+      "kind": "custom",
+      "refersTo": "body",
+      "description": "Red quota with arrowheads and end ticks over real figures.",
+      "html": "<div class=\"ds-dim\"><svg viewBox=\"0 0 600 24\" preserveAspectRatio=\"none\" aria-hidden=\"true\"><line x1=\"0.5\" y1=\"2\" x2=\"0.5\" y2=\"22\"/><line x1=\"599.5\" y1=\"2\" x2=\"599.5\" y2=\"22\"/><line x1=\"4\" y1=\"12\" x2=\"596\" y2=\"12\" marker-start=\"url(#ds-ah)\" marker-end=\"url(#ds-ah)\"/><defs><marker id=\"ds-ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L10 5 L0 9z\" fill=\"#b1040e\"/></marker></defs></svg><p><b>15 anni</b> · <b>1.500+</b> clienti · <b>115 mln €</b> di pratiche · <b>5</b> sedi</p></div>",
+      "css": ":root{--paper:#fafaf8;--paper-2:#f1f1ee;--ink:#141413;--ink-2:#474744;--ink-3:#6b6b67;--line:#141413;--hair:rgba(20,20,19,.16);--grid:rgba(20,20,19,.045);--red:#b1040e;--red-deep:#8c030b;--red-wash:rgba(177,4,14,.07);--font:'Archivo','Helvetica Neue',Arial,sans-serif;--ease:cubic-bezier(0.16,1,0.3,1);} .ds-dim{max-width:600px;font-family:var(--font,Arial,sans-serif);font-variant-numeric:tabular-nums;} .ds-dim svg{display:block;width:100%;height:24px;overflow:visible;} .ds-dim line{stroke:var(--red,#b1040e);stroke-width:1.5;vector-effect:non-scaling-stroke;} .ds-dim p{margin:6px 0 0;text-align:center;font-size:.95rem;color:var(--ink-2,#474744);} .ds-dim b{color:var(--ink,#141413);font-stretch:106%;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "La tavola di progetto",
+    "overview": "Every page is one drawing sheet signed by an engineer. The sheet is a warm white panel (paper) framed by a 2px black border with a 1px outline offset 5px outside it, set on a slightly darker desk (paper-2) and ruled inside by a faint 24px millimetre grid. Content lives in cells divided by black rules, the way a technical drawing divides its title block, its views and its notes. Services are numbered sheets (\"Tav. A\", \"Tav. B\", \"Tav. C\"), the header and footer are rows of the frame, and each page closes with a cartiglio (title block) holding designer, sheet, revision and contacts.\n\nRed #b1040e is the revision pen and nothing else: it circles the key word of a heading, underlines a correction, draws dimension lines, numbers steps, marks the current revision and carries the one primary action. Everything structural is black ink on paper. Density is that of a working document: tight cells, generous section padding, figures set tabular so numbers line up like a bill of quantities.\n\nMotion is drawing, not fading. The red ring around a heading word is stroked in on load, the ring around a service sheet is traced on hover, and dimension lines extend when they scroll into view. The coaching register keeps the same sheet but softens its headings (normal width, weight 600) and swaps the geometric ring for a hand-drawn red stroke under the heading.",
+    "keyCharacteristics": [
+      "Double-ruled sheet frame on a desk tone, millimetre grid inside the sheet only.",
+      "Two line weights: 2px black for structure, 1px black for cells, a 16% ink hairline for subdivisions.",
+      "Square corners everywhere; the only circles are pen marks.",
+      "Red used as an annotation layer over a black and white drawing.",
+      "Archivo variable, widened (wdth 105 to 115) for headings, normal width for text, tabular figures throughout.",
+      "Signature motion: SVG strokes drawn in with a long, decelerating ease."
+    ],
+    "rules": [
+      {
+        "name": "The Revision Pen Rule",
+        "body": "Red marks what changed, what matters or what to do next; it never fills a surface larger than a button and never sets running text. If removing the red leaves the drawing complete, the red was placed correctly.",
+        "section": "colors"
+      },
+      {
+        "name": "The Ink Is The Line Rule",
+        "body": "Rules are drawn in full ink, not grey. Lighter division inside a cell uses the hairline token, never a mid grey hex.",
+        "section": "colors"
+      },
+      {
+        "name": "The Width Axis Rule",
+        "body": "Hierarchy is carried by width as much as weight: headings at wdth 105 to 115, emphasis inside lists at wdth 106 to 108, text at 100. Do not substitute a second family for display.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Figures are tabular everywhere (`font-variant-numeric: tabular-nums` on the body). Amounts, dates, percentages and phone numbers line up.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Sheet Rule",
+        "body": "Nothing on the sheet casts a shadow. Separation comes from rules and fills; the one shadow belongs to the one element that is not on the sheet.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do put every new surface on the sheet: inside the double frame, in bands closed by 2px rules, with cells divided by 1px ink rules and hairlines inside cells.",
+      "Do keep the millimetre grid (24px, ink at 4.5%) on the sheet, and give cells that carry text an opaque paper fill when they need to read clean.",
+      "Do reserve red for the revision layer: one primary red button per view, one ring or underline per heading at most, dimension lines, step numbers, current state, focus and errors.",
+      "Do animate by drawing strokes (dashoffset) with `cubic-bezier(0.16, 1, 0.3, 1)`, and show them fully drawn under reduced motion.",
+      "Do set figures tabular and give real measurements (years, clients, euros, sedi) the dimension-line treatment rather than big-number tiles.",
+      "Do close each page head with a cartiglio whose fields are real (designer, sheet, revision, sedi, contacts).",
+      "Do keep the coaching pages on the same sheet, softening only heading width and weight and using the hand-drawn red stroke."
+    ],
+    "donts": [
+      "Don't round corners or add card shadows; the one shadow is the floating mobile WhatsApp button.",
+      "Don't use red for running text, large fills or decoration that marks nothing.",
+      "Don't draw rules in mid grey; use full ink or the hairline token.",
+      "Don't add a second typeface for display; widen Archivo instead.",
+      "Don't set a label line above a section heading; labels belong inside title-block, rail and footer cells, next to the value they name.",
+      "Don't replace a missing photo with stock imagery; use the X-box placeholder until the real photo arrives."
+    ]
+  }
+}

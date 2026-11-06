@@ -213,12 +213,6 @@ h2 + .lede, h1 + .lede { margin-top: 1.25rem; }
 
 /* elenco elaborati: the service index table */
 .index-table { width: 100%; border-collapse: collapse; }
-.index-caption {
-  display: flex; justify-content: space-between; align-items: baseline;
-  padding: 14px var(--gutter); border-bottom: 1px solid var(--line);
-  font-size: var(--step--1); font-weight: 600; font-stretch: 110%; text-transform: uppercase; letter-spacing: 0.06em;
-}
-.index-caption span:last-child { color: var(--ink-3); font-weight: 500; text-transform: none; letter-spacing: 0; }
 .index-row {
   display: grid; grid-template-columns: 56px minmax(0, 1fr); align-items: start;
   border-bottom: 1px solid var(--line);
@@ -263,14 +257,6 @@ h2 + .lede, h1 + .lede { margin-top: 1.25rem; }
   .index-row { grid-template-columns: 40px minmax(0, 1fr); }
   .index-row .body { padding: 18px 16px; }
 }
-
-/* ---------- Dimension line (quota) ---------- */
-.quota { display: flex; align-items: center; gap: 10px; color: var(--ink-3); font-size: 0.8rem; font-weight: 600; letter-spacing: 0.04em; margin: 0 0 2rem; }
-.quota::before, .quota::after { content: ""; height: 1px; background: currentColor; flex: 1; }
-.quota span { white-space: nowrap; }
-.quota { --tick: 9px; position: relative; padding: 0 1px; }
-.quota-wrap { position: relative; }
-.quota-wrap::before, .quota-wrap::after { content: ""; position: absolute; top: 50%; width: 1px; height: 14px; background: var(--ink-3); transform: translateY(-50%) rotate(45deg); }
 
 /* ---------- Section head with title strip ---------- */
 .strip {
